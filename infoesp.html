@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Info</title>
+    <!-- <link rel="stylesheet" href="blendstyle.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  </head>
+  <style>
+  body {background-color: black;}
+
+  @keyframes fade-down {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px) Scale(0.9);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+
+}
+
+@keyframes fade-up {
+    0% {
+        opacity: 0;
+        transform: translateY(200px) Scale(0.9);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+
+}
+  h1 {font-family: "Libre Franklin", sans-serif; 
+    font-weight: 100; color: rgb(247, 100, 15); 
+    font-size: 500%; text-align: center; z-index: 2; 
+     display: flex; flex-direction: column;
+animation: fade-down 1s;}
+
+h2 {font-family: "Libre Franklin", sans-serif; 
+    font-weight: 100; color: rgb(247, 100, 15); 
+    font-size: 300%; z-index: 3; text-decoration: none; display: flex; justify-content: center; animation: fade-up 2s;}  
+
+p {font-family: "Libre Franklin", sans-serif; 
+    font-weight: 100; color: rgb(247, 100, 15); 
+    font-size: 200%; z-index: 3; text-decoration: none; display: flex; justify-content: center; padding-left: 10%; padding-right: 10%; animation: fade-up 1.5s; line-height: 1.5;}
+
+.p1 {font-size: 250%; font-weight: 400;}
+
+.h22 {font-size: 260%; font-weight: 500;}
+
+.back {text-decoration: none;}
+.hov {transition: transform 0.3s ease-in-out;}
+.download {transition: transform 0.3s ease-in-out;}
+.download:hover {transform: scale(1.3);}
+.hov:hover {transform: scale(1.3);}
+
+.d1 {max-width: 100%;
+        height: auto;
+        display: block;}
+
+.p2 {max-width: 100%;
+        height: auto;
+        display: block;}
+
+.b1 {max-width: 100%;
+        height: auto;
+        display: block;}
+
+.b2 {max-width: 100%;
+        height: auto;
+        display: block;}
+
+.b3 {max-width: 100%;
+        height: auto;
+        display: block;}
+
+.p3 {max-width: 100%;
+        height: auto;
+        display: block;}
+
+.p4 {max-width: 100%;
+        height: auto;
+        display: block;}
+
+
+.preev { justify-content: center; display: flex; padding-bottom: 50px;}
+        
+.preview {display: flex; flex-wrap: wrap; height: 20vh; width: 20vh;}
+
+.imagg {max-width: 100%; max-height: auto;}
+
+.img {position: relative; display: flex;
+     align-items: center; justify-content: center;
+     animation: fade-up 3s; 
+     }
+
+.download {font-weight: 900;}
+
+@media (max-width: 480px) {
+    h1 {font-size: 200%}
+    h2 {font-size: 100%;}
+    p {font-size: 67%;  padding-left: 2%; padding-right: 2%; line-height: 1.5;}
+    .p1 {font-size: 90%;}
+    .h22 {font-size: 80%;}
+    .img {scale: 80%;}
+}
+
+  </style>
+  <body>
+<h1>Blender como herramienta creativa</h1>
+<P class="p1">Blender como herramienta creativa es un libro de texto de 505 páginas que sirve como introducción general al modelado 3D, y como guía de referencia para los atajos y técnicas empleados en Blender 4.5</P>
+<p>
+Empezó como una serie de PDFs que hice para un curso que impartí en la Cineteca Nacional de Ciudad de México, y se ha ido ampliando desde entonces.
+</p>
+<p>El libro de texto cubre: Fundamentos generales del modelado 3D, Navegación, Modelado con imágenes de referencia (Modelamos un mapache), Esculpido, Claves de forma, Pinceles Vdm, Materiales, Texturas procedurales, Sombreado caricatura/stippling/cruzado, Sombreado de contorno, Sombreadores procedurales de agua y fuego, Desenvoltura UV, Animación, Modelado de superficies duras (Modelamos un celular), Modelado de modificador de subsuperficies, Modificadores, Modelado de personajes Low-Poly, Rigging/pintura de pesos, Restricciones, Objetos volumétricos, Sistemas de partículas/física, Fotogrametría, Resolución de cámara con Fspy, Motion tracking, Lápiz graso, Iluminación, Importación/exportación de formatos, y un capítulo dedicado a los atajos de teclado.</p>
+<p>El libro de texto utiliza un sistema de hiperlinks que le permiten desplazarse rápidamente mediante una serie de botones.</p>
+
+<p>Blender como herramienta creativa está disponible en inglés y en español.</p>
+
+<h2 class="h22">Blender como herramienta creativa es gratis! donaciones son apreciadas</h2>
+
+<a href="Blender como una herramienta creativa vista previa.pdf" class="back"><h2 class="download">Descarga el primer capitulo aqui</h2>
+</a>
+<a href="blenderesp.html" class="back"><h2 class="hov">Regresa</h2></a>
+
+
+<div class="img"><img src="Blend1.png" class="imagg"></div>
+
+
+
+
+  </body>
