@@ -1,4 +1,4 @@
-body {background-color: black; display: flex; flex-direction: column; padding: auto;}
+body {background-color: black; display: flex; flex-direction: column; }
 
 .fractal {position: relative; display: flex;
      align-items: center; justify-content: center;
@@ -112,8 +112,8 @@ h3:hover {
 @media (max-width: 480px) {
 
 
-    h1 {font-size: 200%}
-    h2 {font-size: 100%;}
+    h1 {font-size: 300%}
+    h2 {font-size: 200%;}
 
     /* .fractal {scale: 200%;} */
 
@@ -149,7 +149,8 @@ h3:hover {
             width: 70px;
             height: 70px;
         }
-  
+
+
 
 
 }
